@@ -18,7 +18,7 @@ Este proyecto es un chatbot interactivo para realizar pedidos de sushi. Está di
 
 1. Clona este repositorio:
 
-   git clone <URL-del-repositorio>
+   git clone https://github.com/danielbeinat/sushi-chatbot.git
 
 2. Configurar el Backend:
 
@@ -67,7 +67,7 @@ Endpoints:
 
 Datos de Ejemplo
 
-Los siguientes datos iniciales se pueden cargar en MongoDB:
+Los siguientes datos iniciales estan cargados en la carpeta data:
 
 const products = [
 { name: 'Sushi Roll California', price: 12.99, description: 'Rollo de sushi con aguacate, pepino y cangrejo', category: 'Rolls' },
